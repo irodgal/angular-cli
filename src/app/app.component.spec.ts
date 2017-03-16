@@ -34,16 +34,16 @@ describe('AppComponent', () => {
         el = de.nativeElement;
     });
 
-    it('no title in the DOM until manually call `detectChanges`', () => {
+    it('Sin titulo en el DOM hasta llamar manualmente a `detectChanges`', () => {
         expect(el.textContent).toEqual('');
     });
 
-    it('should display original title', () => {
+    it('Muestra el titulo original', () => {
         fixture.detectChanges();
         expect(el.textContent).toContain(comp.title);
     });
 
-    it('should display a different test title', () => {
+    it('Muestra un título diferente `Test title`', () => {
         comp.title = 'Test Title';
         fixture.detectChanges();
         expect(el.textContent).toContain('Test Title');
