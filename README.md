@@ -1,6 +1,6 @@
 # MuApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2. Es el tutorial [Tour of Heroes](https://angular.io/docs/ts/latest/tutorial/) de Angular junto con la parte de [Testing](https://angular.io/docs/ts/latest/guide/testing.html)
 
 ## Development server
 
